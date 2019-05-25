@@ -1,4 +1,4 @@
-# Automatic augmentation by hill climbing
+# Automatic Augmentation by Hill Climbing
 
 When doing data augmentation for images, it is not always intuitive for the user how much shear or translation to apply.
 
