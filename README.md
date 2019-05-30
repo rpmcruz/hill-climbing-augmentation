@@ -6,7 +6,7 @@ In this proposal, the model is always being trained in two branches, one branch 
 
 After a period (e.g. a epoch), the two branches are evaluated using the validation. The weaker branch is eliminated, and the stronger branch becomes the parent of the following two branches.
 
-* Ricardo Cruz, Joaquim F. Pinto Costa, and Jaime S. Cardoso. "Automatic Augmentation by Hill Climbing." International Conference on Artificial Neural Networks. Springer, Cham, 2019. **(to appear)**
+* Ricardo Cruz, Joaquim F. Pinto Costa, and Jaime S. Cardoso. "Automatic Augmentation by Hill Climbing." International Conference on Artificial Neural Networks. Springer, Cham, 2019. **(in revision)**
 
 The method is fairly easy to implement. In any case, this is how we implemented it in Keras. We saved and loaded models from the disk as necessary.
 
