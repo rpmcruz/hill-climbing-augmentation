@@ -87,8 +87,8 @@ else:  # segmentation
     create_model = mymodels.create_unet
     evaluate_metric = segmentation_metric
 
-#steps = 2 * int(np.ceil(len(Xtr) / args.batchsize))
-steps = 1000 // args.batchsize
+steps = 2 * int(np.ceil(len(Xtr) / args.batchsize))
+#steps = 1000 // args.batchsize
 history_transformations = []
 state = np.random.RandomState(123)
 
